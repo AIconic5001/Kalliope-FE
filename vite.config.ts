@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://kalliope-be.onrender.com/",
+        target: "https://kalliope-be-488144718577.us-central1.run.app/",
         changeOrigin: true,
         secure: false,
       },
